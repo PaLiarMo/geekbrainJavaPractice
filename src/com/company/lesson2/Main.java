@@ -66,6 +66,8 @@ public class Main {
             for (int j = 0; j < array[i].length; j++){
                 if (i == j){
                     array[i][j] = 1;
+                }else if (i == ((array.length-1) - j) ){
+                    array[i][j] = 1;
                 }
             }
         }
